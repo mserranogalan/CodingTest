@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "BestHackerStories.Controllers.BestHackersStoriesController",
+    "Method": "GetBestHackersStoriesById",
+    "RelativePath": "api/posts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestHackerStories.Controllers.BestHackersStoriesController",
+    "Method": "GetBestHackersStoriesDetails",
+    "RelativePath": "api/posts/BestHackersStoriesDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BestHackerStories.Controllers.BestHackersStoriesController",
+    "Method": "GetBestHackersStoriesDetailsChannels",
+    "RelativePath": "api/posts/BestHackersStoriesDetailsChannels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

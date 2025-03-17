@@ -1,0 +1,57 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "BestHackerStories",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/posts/{id}": {
+      "get": {
+        "tags": [
+          "BestHackersStories"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/posts/BestHackersStoriesDetails": {
+      "get": {
+        "tags": [
+          "BestHackersStories"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/posts/BestHackersStoriesDetailsChannels": {
+      "get": {
+        "tags": [
+          "BestHackersStories"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
